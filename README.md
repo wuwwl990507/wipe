@@ -13,7 +13,7 @@ PC端实现涂抹擦拭效果，超过50%的涂抹面积可以查看全部。图
 
 使用步骤说明：
 1，在HTML中添加指定id的canvas标签，
-例如：<canvas id="cas" width="375" height="667"></canvas>
+例如：` <canvas id="cas" width="375" height="667"></canvas> `
 
 2，编辑配置文件：
 | 属性名 | 取值类型 | 备注|

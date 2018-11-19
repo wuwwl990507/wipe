@@ -131,6 +131,7 @@ Wipe.prototype.addEvent = function(){
 	},false);
 }
 
+// 封装一个getAllLeft()函数,找到元素所有水平方向的偏移
 function getAllOffsetLeft(element){
 	var allLeft = 0;
 	while(element){
