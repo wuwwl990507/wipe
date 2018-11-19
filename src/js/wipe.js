@@ -111,8 +111,8 @@ Wipe.prototype.addEvent = function(){
 		}else{
 			var event = evt || window.event;
 			event.preventDefault();
-			var x2 = this.device ? event.touches[0].clientX : event.clientX;
-			var y2 = this.device ? event.touches[0].clientY : event.clientY;
+			var x2 = that.device ? event.touches[0].clientX : event.clientX;
+			var y2 = that.device ? event.touches[0].clientY : event.clientY;
 			that.drawT(that.moveX - getAllOffsetLeft(that.cas),that.moveY - getAllOffsetTop(that.cas),x2 - getAllOffsetLeft(that.cas),y2 - getAllOffsetTop(that.cas));
 			//每次的结束点变成下一次划线的开始点
 			that.moveX = x2;
